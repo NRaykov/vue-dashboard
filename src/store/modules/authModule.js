@@ -28,7 +28,7 @@ const authModule = {
                 console.log(err);
             }
         },
-        vx_logout({state}) {
+        vx_logout({commit, state}) {
             try {
 
               state.token = '';

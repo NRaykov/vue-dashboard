@@ -504,8 +504,10 @@ jvm.AbstractElement.prototype.get = function(property){
  * @param {Number|String} config Value of attribute to apply
  * @private
  */
-jvm.AbstractElement.prototype.applyAttr = function(property, value){
-  this.node.setAttribute(property, value);
+jvm.AbstractElement.prototype.applyAttr = function (property, value) {
+  if (jvm.$.isNumeric(value)) {
+     this.node.setAttribute(property, value); 
+  }
 };
 
 jvm.AbstractElement.prototype.remove = function(){
