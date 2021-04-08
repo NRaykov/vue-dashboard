@@ -21,16 +21,19 @@ import Login from '../components/LoginScreen';
 
 import RouteNames from '../enums/RouteNames';
 
+let BASE_URL = '';
+process.env.NODE_ENV === 'production' ? BASE_URL = '/vue-dashboard' : '';
+
 const _navGuardLogin = (to, from, next) => {
     if (!localStorage.getItem('jwt')) {
-        return next({ path: '/login' });
+        return next({ path: BASE_URL+'/login' });
     }
     next();
 }
 
 const _navGuardProVes = (to, from, next) => {
     if (!localStorage.getItem('jwt') || !store.state.upgradeModule.orderStatus.status) {
-        return next({ path: '/login' });
+        return next({ path: BASE_URL+'/login' });
     }
     next();
 }
@@ -38,7 +41,7 @@ const _navGuardProVes = (to, from, next) => {
 
 const routes = [
     {
-        path: '/login',
+        path: BASE_URL+'/login',
         component: Login,
         name: RouteNames.LOGIN,
         meta: { requiresAuth: false },
@@ -50,28 +53,28 @@ const routes = [
         },
     },
     {
-        path: '/',
+        path: BASE_URL+'/',
         name: RouteNames.DASHBOARD,
         component: Dashboard,
         meta: { requiresAuth: true },
         beforeEnter: _navGuardLogin
     },
     {
-        path: '/profile',
+        path: BASE_URL+'/profile',
         name: RouteNames.PROFILE,
         component: Profile,
         meta: { requiresAuth: true },
         beforeEnter: _navGuardLogin
     },
     {
-        path: '/profile/:id',
+        path: BASE_URL+'/profile/:id',
         name: RouteNames.USER_PROFILE,
         component: Profile,
         meta: { requiresAuth: true },
         beforeEnter: _navGuardLogin
     },
     {
-        path: '/settings',
+        path: BASE_URL+'/settings',
         component: SettingsContainer,
         meta: { requiresAuth: true },
         beforeEnter: _navGuardLogin,
@@ -89,56 +92,56 @@ const routes = [
           ]
     },
     {
-        path: '/chat',
+        path:BASE_URL+'/chat',
         name: RouteNames.CHAT,
         component: DirectMessges,
         meta: { requiresAuth: true },
         beforeEnter: _navGuardLogin
     },
     {
-        path: '/maps',
+        path: BASE_URL+'/maps',
         name: RouteNames.MAPS,
         component: Maps,
         meta: { requiresAuth: true },
         beforeEnter: _navGuardLogin
     },
     {
-        path: '/charts',
+        path: BASE_URL+'/charts',
         name: RouteNames.CHARTS,
         component: Charts,
         meta: { requiresAuth: true },
         beforeEnter: _navGuardLogin
     },
     {
-        path: '/themes',
+        path: BASE_URL+'/themes',
         name: RouteNames.THEMES,
         component: Themes,
         meta: { requiresAuth: true },
         beforeEnter: _navGuardProVes
     },
     {
-        path: '/feed',
+        path: BASE_URL+'/feed',
         name: RouteNames.FEED,
         component: Feed,
         meta: { requiresAuth: true },
         beforeEnter: _navGuardProVes
     },
     {
-        path: '/thread/:id',
+        path: BASE_URL+'/thread/:id',
         name: RouteNames.THREAD,
         component: ThreadDetailed,
         meta: { requiresAuth: true },
         beforeEnter: _navGuardProVes
     },
     {
-        path: '/forms',
+        path: BASE_URL+'/forms',
         name: RouteNames.FORMS,
         component: Forms,
         meta: { requiresAuth: true },
         beforeEnter: _navGuardProVes
     },
     {
-        path: '/tables',
+        path: BASE_URL+'/tables',
         name: RouteNames.TABLES,
         component: Tables,
         meta: { requiresAuth: true },
