@@ -106,13 +106,6 @@
           }
       }
     },
-    mounted() {
-      window.addEventListener('resize', () => {
-        // Clear jvector jqeury map error
-        console.clear();
-      });
-      window.dispatchEvent(new Event('resize'));
-    },
     methods: {
       fillData() {
         if(this.chartType === this.ChartTypes.LINE_CHART) {

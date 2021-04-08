@@ -506,6 +506,7 @@ jvm.AbstractElement.prototype.get = function(property){
  */
 jvm.AbstractElement.prototype.applyAttr = function (property, value) {
   this.node.setAttribute(property, value);
+  console.clear();
 };
 
 jvm.AbstractElement.prototype.remove = function(){
