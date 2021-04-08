@@ -1,0 +1,113 @@
+.card {
+
+    border: 0 solid transparent!important;
+    box-shadow: 0 0 0.875rem 0 rgba(33,37,41,.1);
+    border-radius: 0.5rem;
+
+    &-header {
+        background-color: transparent;
+        border-bottom: 0;
+        
+    }
+
+    &-body {
+        flex: 1 1 auto;
+        min-height: 1px;
+        padding: 1.25rem;
+        font-weight: 400;
+    }
+    
+    &-title {
+        font-size: 1.4rem;
+        margin-bottom: 1rem;
+    }
+
+    &-info-title {
+        font-size: 1.4rem;
+        color: #495057;
+        margin-bottom: 1.5rem;
+        font-weight: 600;
+    }
+    &-info-content {
+        margin-top: .25rem;
+        margin-bottom: 1rem;
+        font-size: 1.75rem;
+        font-weight: inherit;
+    }
+    &-info-footer {
+        padding: 1rem 0rem;
+    }
+    &-table {
+        padding: 0;
+        thead {
+            tr {
+                th {
+                    border-top: 0;
+                }
+            }
+        }
+        tbody {
+            tr {
+                &:hover {
+                    background-color: rgba(0,0,0,.0375);
+                }
+            }
+        }
+        table {
+            td {
+                padding: 1.4rem 1rem;
+            }
+        }
+    }
+    &-header {
+        background: white;
+        border: none;
+        margin: 0.5rem 0;
+        .title {
+          font-size: 1.4rem!important;
+        }
+    }
+}
+.card-profile {
+    .card-info-title {
+        margin-bottom: 0;
+    }
+    .card-body {
+        margin: 0;
+    }
+    .card-header {
+        margin: 0.3rem 0;
+    }
+    .card-body, 
+    .card-header {
+        padding: 0.5rem 1.25rem;
+    }
+}
+
+.card-about {
+    .info,
+    a.info {
+        color: #3b7ddd;
+    }
+}
+
+.card-body.calendar-widget-panel {
+    padding: 2.5rem 0.7rem;
+}
+
+.card-activities {
+    .card-header {
+        .card-info-title {
+            margin-bottom: 0;
+        }
+    }
+    .media {
+        padding: 1rem 0;
+        border-bottom: 1px solid #dee2e6;
+        .media-body {
+            a {
+                color: #495057;
+            }
+        }
+    }
+}

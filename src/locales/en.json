@@ -1,0 +1,98 @@
+{
+  "main": {
+    "adminkit": "AdminKit",
+    "login": "Log In",
+    "dashboard": "Dashboard",
+    "analytics": "Analytics",
+    "myProfile": "My Profile",
+    "userProfile": "User Profile",
+    "profileDetails": "Profile Details",
+    "skills": "Skills",
+    "about": "About",
+    "elsewhere": "Elsewhere",
+    "livesIn": "Lives in",
+    "worksAt": "Works at",
+    "from": "From",
+    "activities": "Activities",
+    "sendMessage": "Send Message",
+    "biography": "Biography",
+    "publicInfo": "Public Info",
+    "saveChanges": "Save changes",
+    "saveSkills": "Save skills",
+    "saveProfInfo": "Save info",
+    "imgBestResult": "For best results, use an image at least 128px by 128px in .jpg format",
+    "showHideSocials": "Show/Hide Social Media from User's Profile",
+    "chat": "Chat",
+    "upgrade": "Upgrade",
+    "upgradeToPro": "Upgrade to Pro",
+    "getDarkTheme": "Get Dark Theme",
+    "coolFeatures": "Buy AdminKit now and get many new features only for 10$",
+    "feed": "Feed"
+  },
+  "sidebar": {
+    "dashboard": "Dashboard",
+    "profile": "Profile",
+    "settings": "Settings",
+    "invoice": "Invoice",
+    "directMessages": "Direct Messages",
+    "blank": "Blank",
+    "toolsAndComponents": "Tools & Components",
+    "UIElements": "UI Elements",
+    "account": "Account",
+    "password": "Password",
+    "addInfo": "Additional Info"
+  },
+  "upgrade": {
+    "termsConditions": "Trerms & Conditions",
+    "acceptTerms": "I accept the terms and use"
+  },
+  "errors": {
+    "invalidCredentials": "Invalid Email or Password"
+  },
+  "buttons": {
+    "submit": "Submit",
+    "login": "Log In",
+    "logout": "Log Out",
+    "profile": "Profile",
+    "send": "Send",
+    "loadMore": "Load more",
+    "update": "Update"
+  },
+  "cardInfo": {
+    "sinceLastWeek": "Since last week"
+  },
+  "charts": {
+    "recentMovement": "Recent Movement",
+    "browserUsage": "Browser Usage",
+    "montlySales": "Montly Sales"
+  },
+  "dashboard": {
+    "latestProjects": "Latest Projects",
+    "name": "Name",
+    "startDate": "Start Date",
+    "endDate": "End Date",
+    "status": "Status",
+    "assaignee": "Assaignee",
+    "calendar": "Calendar",
+    "realTime": "Real-Time",
+    "support": "Support",
+    "helpCenter": "Help Center",
+    "privacy": "Privacy",
+    "terms": "Terms"
+  },
+  "activities": {
+    "staredFollowing": "started following",
+    "you": "You",
+    
+    "postedPhotos": "posted {count} photos on",
+    "onTimeline": "'s timeline"
+  },
+  "toastr": {
+    "updateProfile": "Update Profile",
+    "profileUpdated": "Profile updated successfully!"
+  },
+  "thread": {
+    "deleteThread": "Delete Thread"
+  }
+
+}

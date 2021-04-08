@@ -1,0 +1,30 @@
+{
+    "data": {
+        "id": "3424",
+        "first_name": "John",
+        "last_name": "Dole",
+        "profile_pic": "../img/avatar.jpg",
+        "notifications": {
+            "counter": 8
+        },
+        "role": "Lead Developer",
+        "skills": [
+            { "id": 1, "name": "HTML5", "groupId": 1 },
+            { "id": 2, "name": "JS/ES6+", "groupId": 1 },
+            { "id": 3, "name": "SCSS", "groupId": 1 },
+            { "id": 4, "name": "Vue.js", "groupId": 1 },
+            { "id": 5, "name": "AWS", "groupId": 1 }
+        ],
+        "socials": [
+            {"id": 0, "name": "Google", "address": "https://google.com", "icon": "fas fa-globe fa-fw mr-1", "visible": true},
+            {"id": 1,"name": "Twitter", "address": "https://twitter.com", "icon": "fab fa-twitter fa-fw mr-1", "visible": true }, 
+            {"id": 2,"name": "Facbook", "address": "https://facebook.com", "icon": "fab fa-facebook fa-fw mr-1", "visible": false }, 
+            {"id": 3,"name": "Instagram", "address": "https://instagram.com", "icon": "fab fa-instagram fa-fw mr-1", "visible": true},
+            {"id": 4,"name": "LinkedIn", "address": "https://linkedin.com", "icon": "fab fa-linkedin fa-fw mr-1", "visible": true}
+        ],
+        "lives": "San Francisco, SA",
+        "works": "GitHub",
+        "from": "Boston",
+        "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse interdum ultrices purus, eu pulvinar purus scelerisque et. Maecenas nec velit odio. Vivamus finibus dictum nisi ac aliquam. Suspendisse potenti. Ut tempor fringilla purus, id tincidunt enim pulvinar vel. Quisque pharetra, erat non mattis hendrerit, metus sem fermentum sapien, sed feugiat ex justo id ex. Nam sit amet nibh mi. Suspendisse dignissim vel quam eget dapibus. Praesent id justo dapibus, sollicitudin augue id, euismod nunc."
+    }
+}

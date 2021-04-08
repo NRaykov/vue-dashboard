@@ -1,0 +1,141 @@
+$fontsPath: '../../fonts/';
+@font-face {
+    font-family: 'Inter';
+    font-style:  normal;
+    font-weight: 100;
+    font-display: swap;
+    src: url($fontsPath+"Inter-Thin-BETA.woff2") format("woff2"),
+        url($fontsPath+"Inter-Thin-BETA.woff") format("woff");
+  }
+  @font-face {
+    font-family: 'Inter';
+    font-style:  italic;
+    font-weight: 100;
+    font-display: swap;
+    src: url($fontsPath+"Inter-ThinItalic-BETA.woff2") format("woff2"),
+        url($fontsPath+"Inter-ThinItalic-BETA.woff") format("woff");
+  }
+  
+  @font-face {
+    font-family: 'Inter';
+    font-style:  normal;
+    font-weight: 200;
+    font-display: swap;
+    src: url($fontsPath+"Inter-ExtraLight-BETA.woff2") format("woff2"),
+        url($fontsPath+"Inter-ExtraLight-BETA.woff") format("woff");
+  }
+  @font-face {
+    font-family: 'Inter';
+    font-style:  italic;
+    font-weight: 200;
+    font-display: swap;
+    src: url($fontsPath+"Inter-ExtraLightItalic-BETA.woff2") format("woff2"),
+        url($fontsPath+"Inter-ExtraLightItalic-BETA.woff") format("woff");
+  }
+  
+  @font-face {
+    font-family: 'Inter';
+    font-style:  normal;
+    font-weight: 300;
+    font-display: swap;
+    src: url($fontsPath+"Inter-Light-BETA.woff2") format("woff2"),
+        url($fontsPath+"Inter-Light-BETA.woff") format("woff");
+  }
+
+  @font-face {
+    font-family: 'Inter';
+    font-style:  italic;
+    font-weight: 300;
+    font-display: swap;
+    src: url($fontsPath+"Inter-LightItalic-BETA.woff2") format("woff2"),
+        url($fontsPath+"Inter-LightItalic-BETA.woff") format("woff");
+  }
+  
+  @font-face {
+    font-family: 'Inter';
+    font-style:  normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url($fontsPath+"Inter-Regular.woff2") format("woff2"),
+        url($fontsPath+"Inter-Regular.woff") format("woff");
+  }
+  @font-face {
+    font-family: 'Inter';
+    font-style:  italic;
+    font-weight: 400;
+    font-display: swap;
+    src: url($fontsPath+"Inter-Italic.woff2") format("woff2"),
+        url($fontsPath+"Inter-Italic.woff") format("woff");
+  }
+  
+  @font-face {
+    font-family: 'Inter';
+    font-style:  normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url($fontsPath+"Inter-Medium.woff2") format("woff2"),
+        url($fontsPath+"Inter-Medium.woff") format("woff");
+  }
+
+  @font-face {
+    font-family: 'Inter';
+    font-style:  italic;
+    font-weight: 500;
+    font-display: swap;
+    src: url($fontsPath+"Inter-MediumItalic.woff2") format("woff2"),
+        url($fontsPath+"Inter-MediumItalic.woff") format("woff");
+  }
+  
+  @font-face {
+    font-family: 'Inter';
+    font-style:  normal;
+    font-weight: 600;
+    font-display: swap;
+    src: url($fontsPath+"Inter-SemiBold.woff2") format("woff2"),
+        url($fontsPath+"Inter-SemiBold.woff") format("woff");
+  }
+
+  @font-face {
+    font-family: 'Inter';
+    font-style:  italic;
+    font-weight: 600;
+    font-display: swap;
+    src: url($fontsPath+"Inter-SemiBoldItalic.woff2") format("woff2"),
+        url($fontsPath+"Inter-SemiBoldItalic.woff") format("woff");
+  }
+  
+  @font-face {
+    font-family: 'Inter';
+    font-style:  normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url($fontsPath+"Inter-Bold.woff2") format("woff2"),
+        url($fontsPath+"Inter-Bold.woff") format("woff");
+  }
+
+  @font-face {
+    font-family: 'Inter';
+    font-style:  italic;
+    font-weight: 700;
+    font-display: swap;
+    src: url($fontsPath+"Inter-BoldItalic.woff2") format("woff2"),
+        url($fontsPath+"Inter-BoldItalic.woff") format("woff");
+  }
+  
+  @font-face {
+    font-family: 'Inter';
+    font-style:  normal;
+    font-weight: 800;
+    font-display: swap;
+    src: url($fontsPath+"Inter-ExtraBold.woff2") format("woff2"),
+        url($fontsPath+"Inter-ExtraBold.woff") format("woff");
+  }
+  
+  @font-face {
+    font-family: 'Inter';
+    font-style:  italic;
+    font-weight: 800;
+    font-display: swap;
+    src: url($fontsPath+"Inter-ExtraBoldItalic.woff2") format("woff2"),
+        url($fontsPath+"Inter-ExtraBoldItalic.woff") format("woff");
+  }
