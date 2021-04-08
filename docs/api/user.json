@@ -3,7 +3,7 @@
         "id": "3424",
         "first_name": "John",
         "last_name": "Dole",
-        "profile_pic": "../img/avatar.jpg",
+        "profile_pic": "https://nraykov.github.io/vue-dashboard/img/avatar.jpg",
         "notifications": {
             "counter": 8
         },

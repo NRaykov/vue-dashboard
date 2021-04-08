@@ -3,7 +3,7 @@
         "id": "1233",
         "first_name": "Vanessa",
         "last_name": "Tucker",
-        "profile_pic": "../img/avatar_1233.jpg",
+        "profile_pic": "https://nraykov.github.io/vue-dashboard/img/avatar_1233.jpg",
         "followed": "true",
         "notifications": {
             "counter": 3

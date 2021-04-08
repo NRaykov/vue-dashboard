@@ -15,7 +15,7 @@ import feedModule from './modules/feedModule';
 
 const store = new Vuex.Store({
     state: {
-        defaultProfilePic: '/img/no_image.jpg'
+        defaultProfilePic: './img/no_image.jpg'
     },
     modules: {
         authModule,
