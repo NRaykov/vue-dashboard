@@ -44,15 +44,14 @@ const navigationModule = {
                     commit('loadedStatus', true);
                     commit('setFooterItems', data.navigations.footer);
                }
-
                return data.navigations;
 
            } catch (err) {
-                console.log(err)
+             console.log(err);
            }
         },
         vx_toggleSidebarMenu({commit}) {
-                commit('toggleSidebar');
+            commit('toggleSidebar');
         },
     },
     mutations: {
