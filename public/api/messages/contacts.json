@@ -3,17 +3,17 @@
         {
             "id": "1231",
             "name": "Christina Mason",
-            "imageUrl": "../img/avatar_1231.jpg"
+            "imageUrl": "https://nraykov.github.io/vue-dashboard/img/avatar_1231.jpg"
         },
         {
             "id": "1232",
             "name": "William Harris",
-            "imageUrl": "../img/avatar_1232.jpg"
+            "imageUrl": "https://nraykov.github.io/vue-dashboard/img/avatar_1232.jpg"
         },
         {
             "id": "1233",
             "name": "Vanessa Tucker",
-            "imageUrl": "../img/avatar_1233.jpg"
+            "imageUrl": "https://nraykov.github.io/vue-dashboard/img/avatar_1233.jpg"
         }
     ]
 }

@@ -3,7 +3,7 @@
         {
             "id": "1231",
             "name": "Christina Mason",
-            "imageUrl": "../img/avatar_1231.jpg",
+            "imageUrl": "https://nraykov.github.io/vue-dashboard/img/avatar_1231.jpg",
             "messages": [            
                 { "type": "text", "author": "me", "data": { "text": "What's your name?" } },
                 { "type": "text", "author": "1231", "data": { "text": "I'm Christina Mason" } },

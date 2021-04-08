@@ -3,7 +3,7 @@
         {
             "id": "1233",
             "name": "Vanessa Tucker",
-            "imageUrl": "../img/avatar_1233.jpg",
+            "imageUrl": "https://nraykov.github.io/vue-dashboard/img/avatar_1233.jpg",
             "messages": [            
                 { "type": "text", "author": "me", "data": { "text": "Test" } },
                 { "type": "text", "author": "1233", "data": { "text": "Test Reply" } }

@@ -3,7 +3,7 @@
         "id": "1230",
         "first_name": "T",
         "last_name": "800",
-        "profile_pic": "../img/avatar_1230.jpg",
+        "profile_pic": "https://nraykov.github.io/vue-dashboard/img/avatar_1230.jpg",
         "followed": "false",
         "notifications": {
             "counter": 20

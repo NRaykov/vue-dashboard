@@ -3,7 +3,7 @@
         "id": "1231",
         "first_name": "Christina",
         "last_name": "Mason",
-        "profile_pic": "../img/avatar_1231.jpg",
+        "profile_pic": "https://nraykov.github.io/vue-dashboard/img/avatar_1231.jpg",
         "followed": "true",
         "notifications": {
             "counter": 30
