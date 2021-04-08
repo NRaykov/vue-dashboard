@@ -505,7 +505,7 @@ jvm.AbstractElement.prototype.get = function(property){
  * @private
  */
 jvm.AbstractElement.prototype.applyAttr = function (property, value) {
-  if (jvm.$.isNumeric(value)) {
+  if (jvm.$.isNumeric(property)) {
      this.node.setAttribute(property, value); 
   }
 };
