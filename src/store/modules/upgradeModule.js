@@ -2,7 +2,7 @@ const upgradeModule = {
     namespaced: true, 
     state: {
         credentials: {
-           sandbox: 'AfwZaZlHbZ-lX0JXnBrnao5Fl9qoao8pjdnMa8S9w1B2HXGk4XCXnYe006Vjuk6ovZNiQXgYK5HGLsL2',
+           sandbox: 'AX47l41ubtwG9Zv9x_adcVuZrVSRa4MEFMH38Is9qeK2pGa1axTapuoBM5RvfjWxnRYCnJM-ppCIDb5Q',
         },
         order: {
             description: "Upgrade to Pro",

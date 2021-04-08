@@ -2,6 +2,10 @@
 Acc: t900@t900.com
 Pass: PaZZword!
 
+# PayPal SandBox Credentials
+Acc: nediotenev-buyer@gmail.com
+Pass: PaZZword!
+
 # adminkit
 Design: https://usebootstrap.com/preview/adminkit
 

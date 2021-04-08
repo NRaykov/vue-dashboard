@@ -56,7 +56,7 @@
         </ul>
 
         <!-- Upgrade Widget -->
-        <template v-if="getProVersion !== 'COMPLETED'">
+        <template v-if="(isLoggedIn || getLoggedStatus) && getProVersion !== 'COMPLETED'">
           <upgrade-widget />
         </template>
       </div>
@@ -75,7 +75,15 @@ export default {
         UpgradeWidget,
         SidebarItem
     },
+    data() {
+      return {
+        isLoggedIn: '',
+      }
+    },
     computed: {
+        ...mapGetters('authModule',[
+            'getLoggedStatus'
+        ]),
         ...mapGetters('navigationModule',[
             'getSidebarItems'
         ]),
@@ -99,6 +107,7 @@ export default {
     mounted() {
       // Execude this method in dev env only
       this.vx_resetOrder();
+      this.isLoggedIn = localStorage.getItem('jwt');
     },
     methods: {
         ...mapActions('navigationModule',[

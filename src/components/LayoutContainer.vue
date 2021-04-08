@@ -22,11 +22,11 @@
   </div>
 </template>
 <script>
-import LoginScreen from './LoginScreen';
 import SidebarLeft from './elements/SidebarLeft/SidebarLeft';
 import NavbarMain from '../components/elements/NavbarMain';
 import FooterComponent from '../components/elements/FooterComponent';
 import { mapGetters } from 'vuex';
+
 export default {
     components: {
         SidebarLeft,
@@ -43,6 +43,12 @@ export default {
       ...mapGetters('authModule',[
           'getLoggedStatus'
       ]),
+    },
+    mounted() {
+      if( window.canRunAds === undefined ){
+        alert('Adbloker detected. please disable it.');
+        return;
+      }
     },
     methods: {
       beforeLeave(element) {

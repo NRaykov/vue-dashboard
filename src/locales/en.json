@@ -1,6 +1,6 @@
 {
   "main": {
-    "adminkit": "AdminKit",
+    "adminkit": "Vue Dashboard",
     "login": "Log In",
     "dashboard": "Dashboard",
     "analytics": "Analytics",
@@ -26,7 +26,7 @@
     "upgrade": "Upgrade",
     "upgradeToPro": "Upgrade to Pro",
     "getDarkTheme": "Get Dark Theme",
-    "coolFeatures": "Buy AdminKit now and get many new features only for 10$",
+    "coolFeatures": "Buy Vue Dashboard now and get many new features only for 10$",
     "feed": "Feed"
   },
   "sidebar": {
