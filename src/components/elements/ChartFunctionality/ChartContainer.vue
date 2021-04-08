@@ -15,14 +15,14 @@
       >{{ $t('charts.montlySales') }}</span>
     </div>
     <div class="card-body">
-      <template v-if="chartType === ChartTypes.LINE_CHART">
+      <template v-if="chartType === ChartTypes.LINE_CHART && datacollection.movement">
         <line-chart 
           :chart-data="datacollection.movement"
           :options="lineChartOptions"
           :height="208" 
         />
       </template>
-      <template v-if="chartType === ChartTypes.PIE_CHART">
+      <template v-if="chartType === ChartTypes.PIE_CHART && datacollection.browser">
         <pie-chart 
           :chart-data="datacollection.browser"
           :options="pieChartOptions"
@@ -43,7 +43,7 @@
           </tbody>
         </table>
       </template>
-      <template v-if="chartType === ChartTypes.BAR_CHART">
+      <template v-if="chartType === ChartTypes.BAR_CHART && datacollection.sales">
         <bar-chart 
           :chart-data="datacollection.sales"
           :options="barChartOptions"
