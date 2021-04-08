@@ -106,6 +106,11 @@
           }
       }
     },
+    mounted() {
+      window.addEventListener('resize', () => {
+        console.clear();
+      });
+    },
     methods: {
       fillData() {
         if(this.chartType === this.ChartTypes.LINE_CHART) {
