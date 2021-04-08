@@ -15,7 +15,7 @@
 // Register jvectormap
 window.jQuery = require('jquery');
 import $ from 'jquery';
-require('jvectormap-next')($);
+require('./jquery-jvectormap.js')($);
 require('./jquery-jvectormap-world-mill');
 import { jvMapConfig } from './jvMapConfig';
 
