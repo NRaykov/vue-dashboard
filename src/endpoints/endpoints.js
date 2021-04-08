@@ -9,7 +9,7 @@ const endpoints = {
     getCharts: `${ BASE_URL }/api/charts.json`,
     getProjects: `${ BASE_URL }/api/projects.json`,
     getMaps: `${ BASE_URL }/api/maps.json`,
-    getUserContacts: `/api/messages/contacts.json`,
+    getUserContacts: `${ BASE_URL }/api/messages/contacts.json`,
     getFeed: `${ BASE_URL }/api/feed/feed.json`,
     getOtherUserData: function(id) {
         return `${ BASE_URL }/api/users/${id}.json`
