@@ -1,0 +1,28 @@
+{
+    "data": {
+        "id": "1233",
+        "first_name": "Vanessa",
+        "last_name": "Tucker",
+        "profile_pic": "../img/avatar_1233.jpg",
+        "followed": "true",
+        "notifications": {
+            "counter": 3
+        },
+        "role": "Developer",
+        "skills": [
+            { "id": 1, "name": "Bootstrap 4+", "groupId": 1 },
+            { "id": 2, "name": "CSS", "groupId": 1 },
+            { "id": 3, "name": "JS/ES6+", "groupId": 1 }
+        ],
+        "socials": [
+            {"id": 0, "name": "google.com", "address": "https://google.com", "icon": "fas fa-globe fa-fw mr-1", "visible": true},
+            {"id": 1,"name": "Twitter", "address": "https://twitter.com", "icon": "fab fa-twitter fa-fw mr-1", "visible": true}, 
+            {"id": 2,"name": "Facbook", "address": "https://facebook.com", "icon": "fab fa-facebook fa-fw mr-1", "visible": true }, 
+            {"id": 3,"name": "Instagram", "address": "https://instagram.com", "icon": "fab fa-instagram fa-fw mr-1", "visible": true},
+            {"id": 4,"name": "LinkedIn", "address": "https://linkedin.com", "icon": "fab fa-linkedin fa-fw mr-1", "visible": true}
+        ],
+        "lives": "San Francisco, SA",
+        "works": "GitHub",
+        "from": "Boston"
+    }
+}

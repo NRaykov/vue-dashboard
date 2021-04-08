@@ -10,7 +10,7 @@
             <a
               href="index.html"
               class="text-muted"
-            ><strong>AdminKit Demo</strong></a> &copy;
+            ><strong>Vue Dashboard</strong></a> &copy;
           </p>
         </b-col>
         <b-col

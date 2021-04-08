@@ -1,0 +1,45 @@
+{
+    "data": {
+        "id": "1232",
+        "first_name": "William",
+        "last_name": "Harris",
+        "profile_pic": "../img/avatar_1232.jpg",
+        "activities": [
+            {
+                "status": "followed_user", 
+                "user": {
+                    "id": "1231",
+                    "first_name": "T",
+                    "last_name": "800",
+                    "profile_pic": "../img/avatar.jpg"
+                },
+                "date": "Today 7:51 pm",
+                "timestamp": "5m ago"
+            },
+            {
+                "status": "followed_user", 
+                "user": {
+                    "id": "1233",
+                    "first_name": "Vanessa",
+                    "last_name": "Tucker",
+                    "profile_pic": "../img/avatar_1233.jpg"
+                },
+                "date": "Today 9:43 pm",
+                "timestamp": "45m ago"
+            },
+            {
+                "status": "posted_photos",
+                "photos_count": 2,
+                "photos": ["../img/uploaded/uploaded_3.jpg", "../img/uploaded/uploaded_1.jpg"], 
+                "user": {
+                    "id": "1230",
+                    "first_name": "Vanessa",
+                    "last_name": "Tucker",
+                    "profile_pic": "../img/avatar_1230.jpg"
+                },
+                "date": "Today 7:20 pm",
+                "timestamp": "1h ago"
+            }
+        ]
+    }
+}

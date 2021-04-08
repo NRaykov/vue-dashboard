@@ -1,0 +1,17 @@
+{
+    "participants": [
+        {
+            "id": "1231",
+            "name": "Christina Mason",
+            "imageUrl": "../img/avatar_1231.jpg",
+            "messages": [            
+                { "type": "text", "author": "me", "data": { "text": "What's your name?" } },
+                { "type": "text", "author": "1231", "data": { "text": "I'm Christina Mason" } },
+                { "type": "text", "author": "me", "data": { "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." } },
+                { "type": "text", "author": "1231", "data": { "text": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo." } },
+                { "type": "text", "author": "me", "data": { "text": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio." } },
+                { "type": "text", "author": "1231", "data": { "text": "Nam libero tempore" } }
+            ]
+        }
+    ]
+}

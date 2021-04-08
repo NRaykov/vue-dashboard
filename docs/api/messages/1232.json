@@ -1,0 +1,14 @@
+{
+    "participants": [
+        {
+            "id": "1232",
+            "name": "William Harris",
+            "imageUrl": "../img/avatar_1232.jpg",
+            "messages": [            
+                { "type": "text", "author": "me", "data": { "text": "Say yes!" } },
+                { "type": "text", "author": "1232", "data": { "text": "No." } },
+                { "type": "emoji", "author": "1232", "data": { "emoji": "😒" } }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,32 @@
+
+{
+    "data": {
+        "userId": 3424,
+        "market_info":  {
+                "sales": {
+                    "id": 4950,
+                    "title": "Sales",
+                    "total": 2.382,
+                    "weekly": -3.65
+                },
+                "earnings": {
+                    "id": 1250,
+                    "title": "Earnings",
+                    "total": "$21.300",
+                    "weekly": 6.65
+                },
+                "visitors": {
+                    "id": 1251,
+                    "title": "Visitors",
+                    "total": 14.212,
+                    "weekly": 5.25
+                },
+                "orders": {
+                    "id": 1252,
+                    "title": "Orders",
+                    "total": "64",
+                    "weekly": -2.25
+                }
+        }
+    }
+} 

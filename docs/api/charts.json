@@ -1,0 +1,53 @@
+{
+    "data": {
+        "chart_movement": {
+            "id": 5768,
+            "chart_data": [
+                2115,
+                1562,
+                1584,
+                1892,
+                1587,
+                1923,
+                2566,
+                2448,
+                2805,
+                3438,
+                2917,
+                3327
+            ],
+            "label": "Sales ($)",
+            "labels": ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
+            "fill": true,
+            "border_color": "#3b7ddd",
+            "background_color": "rgba(50, 115, 220, 0.1)"
+        },
+        "chart_browser_usage": {
+            "id": 5767,
+            "chart_data": [
+                4306, 
+                3801, 
+                1689
+            ],
+            "labels": [{"name": "Chrome", "data": 4306}, {"name": "Firefox", "data": 3801}, {"name": "Edge", "data": 1689}],
+            "background_color": [
+                "#3B7DDD",
+                "#ffc107",
+                "#dc3545"
+            ],
+            "border_width": 5
+        },
+        "chart_montly_sales": {
+            "id": 5768,
+            "chart_data": [54, 67, 41, 55, 62, 45, 55, 73, 60, 76, 48, 79],
+            "labels": ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
+            "label": "This year",
+            "background_color": "#3B7DDD",
+            "border_color": "#3B7DDD",
+            "hover_background_color": "#3B7DDD",
+            "hover_border_color": "#3B7DDD",
+            "bar_percentage": ".75",
+            "category_percentage": ".5"
+        }
+    }
+}

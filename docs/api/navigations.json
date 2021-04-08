@@ -1,0 +1,144 @@
+
+{
+    "navigations": {
+        "request_id": "req_navigations",
+        "sidebar":  [
+            {
+                "pages": [
+                    {
+                        "id": 2030,
+                        "name": "dashboard",
+                        "data_feather": "sliders",
+                        "title": "Dashboard",
+                        "meta": {
+                            "id": 1,
+                            "name": "Pages"
+                        }
+                    },
+                    {
+                        "id": 2031,
+                        "name": "profile",
+                        "data_feather": "users",
+                        "title": "Profile",
+                        "meta": {
+                            "id": 1,
+                            "name": "Pages"
+                        }
+                    },
+                    {
+                        "id": 2032,
+                        "name": "account",
+                        "data_feather": "settings",
+                        "title": "Settings",
+                        "meta": {
+                            "id": 1,
+                            "name": "Pages"
+                        }
+                    },
+                    {
+                        "id": 2033,
+                        "name": "chat",
+                        "data_feather": "message-square",
+                        "title": "Direct Messages",
+                        "meta": {
+                            "id": 1,
+                            "name": "Pages"
+                        }
+                    } 
+                ]
+            },
+            {
+                "tools": [
+                    {
+                        "id": 2034,
+                        "name": "themes",
+                        "data_feather": "sliders",
+                        "title": "Themes",
+                        "meta": {
+                            "id": 3,
+                            "name": "Tools & Components"
+                        }
+                    },
+                    {
+                        "id": 2035,
+                        "name": "feed",
+                        "data_feather": "list",
+                        "title": "Feed",
+                        "meta": {
+                            "id": 3,
+                            "name": "Tools & Components"
+                        }
+                    },
+                    {
+                        "id": 2036,
+                        "name": "forms",
+                        "data_feather": "check-circle",
+                        "title": "Forms",
+                        "meta": {
+                            "id": 3,
+                            "name": "Tools & Components"
+                        }
+                    },
+                    {
+                        "id": 2037,
+                        "name": "tables",
+                        "data_feather": "list",
+                        "title": "Tables",
+                        "meta": {
+                            "id": 3,
+                            "name": "Tools & Components"
+                        }
+                    } 
+                ]
+            },
+            {
+                "plugins": [
+                    {
+                        "id": 2038,
+                        "name": "charts",
+                        "data_feather": "bar-chart-2",
+                        "title": "Charts",
+                        "meta": {
+                            "id": 6,
+                            "name": "Plugins & Addons"
+                        }
+                    },
+                    {
+                        "id": 2039,
+                        "name": "maps",
+                        "data_feather": "map",
+                        "title": "Map",
+                        "meta": {
+                            "id": 6,
+                            "name": "Plugins & Addons"
+                        }
+                    }
+                ]
+            }
+        ],
+        "footer": [
+            {
+                "name": "footer",
+                "anchor": "#",
+                "title": "Support"
+            },
+            {
+                "name": "footer",
+                "anchor": "#",
+                "title": "Help Center"
+            },
+            {
+                "name": "footer",
+                "anchor": "#",
+                "title": "Privacy"
+            },
+            {
+                "name": "footer",
+                "anchor": "#",
+                "title": "Terms"
+            }
+        ],
+        "mainMenu": []
+    } 
+    
+}

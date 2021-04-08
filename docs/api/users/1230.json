@@ -1,0 +1,27 @@
+{
+    "data": {
+        "id": "1230",
+        "first_name": "T",
+        "last_name": "800",
+        "profile_pic": "../img/avatar_1230.jpg",
+        "followed": "false",
+        "notifications": {
+            "counter": 20
+        },
+        "role": "Developer",
+        "skills": [
+            { "id": 1, "name": "HTML5", "groupId": 1 },
+            { "id": 2, "name": "SCSS", "groupId": 1 },
+            { "id": 3, "name": "AWS", "groupId": 1 },
+            { "id": 4, "name": "Vue.js", "groupId": 1 }
+        ],
+        "socials": [
+            {"id": 0, "name": "google.com", "address": "https://google.com", "icon": "fas fa-globe fa-fw mr-1", "visible": true},
+            {"id": 1,"name": "Twitter", "address": "https://twitter.com", "icon": "fab fa-twitter fa-fw mr-1", "visible": true}, 
+            {"id": 4,"name": "LinkedIn", "address": "https://linkedin.com", "icon": "fab fa-linkedin fa-fw mr-1", "visible": true}
+        ],
+        "lives": "San Francisco, SA",
+        "works": "GitHub",
+        "from": "Boston"
+    }
+}
